@@ -1,0 +1,115 @@
+body {
+  background: #00DCFF;
+}
+
+main {
+  max-width: 610px;
+  margin: auto;
+}
+
+h1, h5 {
+  text-align: center;
+  color: #0009CB;
+}
+
+.controls {
+  text-align: center;
+}
+
+.board {
+    width: 540px;
+    height: 540px;
+    margin: 20px;
+    border: 25px solid #000000;
+}
+
+.cell {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    line-height: 50px;
+}
+
+.snake {
+  background-color: #FF8700;
+}
+
+.food {
+  background-color: #8000FF;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FF8700;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #585451;
+}
+
+.button:hover {background-color: #FFB600}
+
+.button:active {
+  background-color: #FFB600;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);  Black
+}
+
+
+.modal-content {
+  background-color: #00DCFF;
+  border-radius: 15px;
+  margin: 15% auto;
+  padding: 20px;
+  border: 10px solid #000000;
+  width: 40%;
+  text-align: center;
+}
+
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#message {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #0009CB;
+}
